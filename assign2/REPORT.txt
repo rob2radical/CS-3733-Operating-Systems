@@ -1,0 +1,12 @@
+1. I talked high level ideas with Nicolas Ruiz (medium) and Eloy Rodriguez (medium) and 
+helped with debugging errors.
+
+2. For the most part yes, implementing the pseudocode you gave us during the lectures was 
+pretty easy but I did run into problems with getting my RR scheduling function to produce the correct
+output based on the input file.
+
+3. Everything seems to be working with the given text file besides the output of RR.
+
+4. This assignment was really time consuming I feel like I could've been more
+efficient with my code/logic. But overall it was pretty interesting to implement these
+CPU scheduling algorithms in C.

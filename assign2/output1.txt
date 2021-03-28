@@ -1,0 +1,53 @@
+qsy775@fox04:~/courses/cs3733/assign2$ make run1
+prog -alg FIFO -input input1.txt 
+Student Name: Robert Quintanilla
+Input File Name : input1.txt
+CPU Scheduling Alg : FIFO
+
+Process 1 is completed at 5 ms
+Process 2 is completed at 12 ms
+Process 3 is completed at 18 ms
+Process 4 is completed at 22 ms
+Average Waiting time = 8.75 ms     (35/4)
+Average Turnaround time = 14.25 ms (57/4)
+Throughput = 0.18 jobs per ms      (4/22)
+
+qsy775@fox04:~/courses/cs3733/assign2$ make run2
+prog -alg SJF -input input1.txt 
+Student Name: Robert Quintanilla
+Input File Name : input1.txt
+CPU Scheduling Alg : SJF
+
+Process 4 is completed at 4 ms
+Process 1 is completed at 9 ms
+Process 3 is completed at 15 ms
+Process 2 is completed at 22 ms
+Average Waiting time = 7.00 ms     (28/4)
+Average Turnaround time = 12.50 ms (50/4)
+Throughput = 0.18 jobs per ms      (4/22)
+
+qsy775@fox04:~/courses/cs3733/assign2$ make run3
+prog -alg PR -input input1.txt 
+Student Name: Robert Quintanilla
+Input File Name : input1.txt
+CPU Scheduling Alg : PR
+
+Process 4 is completed at 4 ms
+Process 1 is completed at 9 ms
+Process 2 is completed at 16 ms
+Process 3 is completed at 22 ms
+Average Waiting time = 7.25 ms     (29/4)
+Average Turnaround time = 12.75 ms (51/4)
+Throughput = 0.18 jobs per ms      (4/22)
+
+qsy775@fox04:~/courses/cs3733/assign2$ make run4
+prog -alg RR -quantum 5 -input input1.txt
+Student Name: Robert Quintanilla
+Input File Name : input1.txt
+CPU Scheduling Alg : RR
+
+Process 1 is completed at 5 ms
+Process 4 is completed at 14 ms
+Average Waiting time = 5.00 ms     (10/2)
+Average Turnaround time = 9.50 ms (19/2)
+Throughput = 0.14 jobs per ms      (2/14)
