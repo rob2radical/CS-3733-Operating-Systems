@@ -1,0 +1,53 @@
+(1) I worked individually on this assignment and did not give or receive any help. The two help videos
+were very helpful in completing the assignment
+
+(2) Yes, for the most part I think everything I did was correct besides getting the
+correct output for part 3
+
+(3) Everything is working using the given input files besides part 3 which works
+but produces incorrect output
+
+(4) I really enjoyed this assignment and think it was great for understanding how to implement
+a C program that mimics memory management in an actually system.
+
+(5) qsy775@fox04:~/courses/cs3733/assign3$ make run1
+part1 part1testsequence part1-out-test
+The LA is 44 and the corresponding PA is 144
+The LA is 224 and the corresponding PA is 1a4
+The LA is 168 and the corresponding PA is e8
+The LA is 28c and the corresponding PA is 28c
+The LA is dc and the corresponding PA is 25c
+The LA is 234 and the corresponding PA is 1b4
+The LA is 98 and the corresponding PA is 218
+The LA is d0 and the corresponding PA is 250
+Total number of pages = 8
+qsy775@fox04:~/courses/cs3733/assign3$
+
+qsy775@fox04:~/courses/cs3733/assign3$ make run2
+part1 part1sequence part1-output
+md5sum part1-output
+ceabc02825a5b908e474b053074ab53c  part1-output
+qsy775@fox04:~/courses/cs3733/assign3$
+
+qsy775@fox04:~/courses/cs3733/assign3$ make run3
+part2 part2sequence part2-output
+Part 2 page faults: 3210
+md5sum part2-output
+c95b27848ae8d4354d87678d075001f7  part2-output
+qsy775@fox04:~/courses/cs3733/assign3$
+
+**The following is my attempt to part 3 it accepts the proper arguments but I ran out of time trying to debug it
+qsy775@fox04:~/courses/cs3733/assign3$ make run4
+part3 256 4096 1024 part2sequence part3-output
+Part 3 page faults: 1845
+md5sum part3-output
+23133c0ff41a4005a151d6e38199fe8d  part3-output
+qsy775@fox04:~/courses/cs3733/assign3$
+
+qsy775@fox04:~/courses/cs3733/assign3$ make run5
+part3 128 4096 2048 part2sequence part3-output
+Part 3 page faults: 45
+md5sum part3-output 
+110ae162a0f366c26eeaaa94d2fd3ac7  part3-output
+qsy775@fox04:~/courses/cs3733/assign3$
+
