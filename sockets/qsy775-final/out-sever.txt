@@ -1,0 +1,76 @@
+qsy775@fox05:~/courses/cs3733/sockets/qsy775-final$ make 
+gcc -g server.c -o server  -lnsl
+# gcc -g server.c -o server -lsocket -lnsl
+# gcc -g client.c -o client -lsocket -lnsl
+gcc -g client.c -o client  -lnsl
+qsy775@fox05:~/courses/cs3733/sockets/qsy775-final$ server
+[+] Server is listening ...
+Server accepted Client ...
+Client Request: GETSALARY fdf487
+fdf487
+
+Rogelio
+100000.00
+
+Server accepted Client ...
+Client Request: GETSALARY qsj234
+qsj234
+
+Joan
+990000.00
+
+Server accepted Client ...
+Client Request: GETSALARY sfd251
+sfd251
+
+Mem
+142398.00
+
+Server accepted Client ...
+Client Request: GETSALARY oie973
+oie973
+
+Juan
+645314.00
+
+Server accepted Client ...
+Client Request: GETSALARY tur588
+tur588
+
+Harris
+142398.00
+
+Server accepted Client ...
+Client Request: GETSALARY jgf104
+jgf104
+
+Andrew
+789012.00
+
+Server accepted Client ...
+Client Request: GETSALARY zpq160
+zpq160
+
+Perez
+980123.00
+
+Server accepted Client ...
+Client Request: GETSALARY tqu724
+tqu724
+
+Wu
+524391.00
+
+Server accepted Client ...
+Client Request: GETSALARY qwe510
+qwe510
+
+Joe
+112980.00
+
+Server accepted Client ...
+Client Request: GETSALARY qew227
+qew227
+
+Ronnie
+978423.00

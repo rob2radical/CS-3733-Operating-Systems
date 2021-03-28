@@ -1,0 +1,143 @@
+qsy775@fox05:~/courses/cs3733/sockets/qsy775-final$ client
+[...]Client waiting for SIGINT Ctrl-C
+^CCTRL-C has been received
+[+] Client-Server Connection Established
+Enter '1' to GETSALARY ID or Enter '2' to STOP:
+1
+Enter an Employee ID: fdf487
+Client Request: GETSALARY fdf487
+GETSALARY fdf487
+Server Response: Rogelio
+100000.00
+
+qsy775@fox05:~/courses/cs3733/sockets/qsy775-final$
+
+qsy775@fox05:~/courses/cs3733/sockets/qsy775-final$ client
+[...]Client waiting for SIGINT Ctrl-C
+^CCTRL-C has been received
+[+] Client-Server Connection Established
+Enter '1' to GETSALARY ID or Enter '2' to STOP:
+1
+Enter an Employee ID: qsj234
+Client Request: GETSALARY qsj234
+GETSALARY qsj234
+Server Response: Joan
+990000.00
+
+qsy775@fox05:~/courses/cs3733/sockets/qsy775-final$
+
+qsy775@fox05:~/courses/cs3733/sockets/qsy775-final$ client
+[...]Client waiting for SIGINT Ctrl-C
+^CCTRL-C has been received
+[+] Client-Server Connection Established
+Enter '1' to GETSALARY ID or Enter '2' to STOP:
+1
+Enter an Employee ID: sfd251
+Client Request: GETSALARY sfd251
+GETSALARY sfd251
+Server Response: Mem
+142398.00
+
+qsy775@fox05:~/courses/cs3733/sockets/qsy775-final$
+
+qsy775@fox05:~/courses/cs3733/sockets/qsy775-final$ client
+[...]Client waiting for SIGINT Ctrl-C
+^CCTRL-C has been received
+[+] Client-Server Connection Established
+Enter '1' to GETSALARY ID or Enter '2' to STOP:
+1
+Enter an Employee ID: oie973
+Client Request: GETSALARY oie973
+GETSALARY oie973
+Server Response: Juan
+645314.00
+
+qsy775@fox05:~/courses/cs3733/sockets/qsy775-final$
+
+qsy775@fox05:~/courses/cs3733/sockets/qsy775-final$ client
+[...]Client waiting for SIGINT Ctrl-C
+^CCTRL-C has been received
+[+] Client-Server Connection Established
+Enter '1' to GETSALARY ID or Enter '2' to STOP:
+1
+Enter an Employee ID: tur588
+Client Request: GETSALARY tur588
+GETSALARY tur588
+Server Response: Harris
+142398.00
+
+qsy775@fox05:~/courses/cs3733/sockets/qsy775-final$
+
+qsy775@fox05:~/courses/cs3733/sockets/qsy775-final$ client
+[...]Client waiting for SIGINT Ctrl-C
+^CCTRL-C has been received
+[+] Client-Server Connection Established
+Enter '1' to GETSALARY ID or Enter '2' to STOP:
+1
+Enter an Employee ID: jgf104
+Client Request: GETSALARY jgf104
+GETSALARY jgf104
+Server Response: Andrew
+789012.00
+
+qsy775@fox05:~/courses/cs3733/sockets/qsy775-final$
+
+qsy775@fox05:~/courses/cs3733/sockets/qsy775-final$ client
+[...]Client waiting for SIGINT Ctrl-C
+^CCTRL-C has been received
+[+] Client-Server Connection Established
+Enter '1' to GETSALARY ID or Enter '2' to STOP:
+1
+Enter an Employee ID: zpq160
+Client Request: GETSALARY zpq160
+GETSALARY zpq160
+Server Response: Perez
+980123.00
+
+qsy775@fox05:~/courses/cs3733/sockets/qsy775-final$
+
+qsy775@fox05:~/courses/cs3733/sockets/qsy775-final$ client
+[...]Client waiting for SIGINT Ctrl-C
+^CCTRL-C has been received
+[+] Client-Server Connection Established
+Enter '1' to GETSALARY ID or Enter '2' to STOP:
+1
+Enter an Employee ID: tqu724
+Client Request: GETSALARY tqu724
+GETSALARY tqu724
+Server Response: Wu
+524391.00
+
+qsy775@fox05:~/courses/cs3733/sockets/qsy775-final$
+
+qsy775@fox05:~/courses/cs3733/sockets/qsy775-final$ client
+[...]Client waiting for SIGINT Ctrl-C
+^CCTRL-C has been received
+[+] Client-Server Connection Established
+Enter '1' to GETSALARY ID or Enter '2' to STOP:
+1
+Enter an Employee ID: qwe510
+Client Request: GETSALARY qwe510
+GETSALARY qwe510
+Server Response: Joe
+112980.00
+
+qsy775@fox05:~/courses/cs3733/sockets/qsy775-final$
+
+qsy775@fox05:~/courses/cs3733/sockets/qsy775-final$ client
+[...]Client waiting for SIGINT Ctrl-C
+^CCTRL-C has been received
+[+] Client-Server Connection Established
+Enter '1' to GETSALARY ID or Enter '2' to STOP:
+1
+Enter an Employee ID: qew227
+Client Request: GETSALARY qew227
+GETSALARY qew227
+Server Response: Ronnie
+978423.00
+
+qsy775@fox05:~/courses/cs3733/sockets/qsy775-final$
+
+
+
+

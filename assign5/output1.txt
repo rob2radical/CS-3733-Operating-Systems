@@ -1,0 +1,69 @@
+qsy775@fox05:~/courses/cs3733/assign5$ make
+gcc -o Prog Prog.c -lpthread 
+qsy775@fox05:~/courses/cs3733/assign5$ make run1
+Prog -alg FIFO -input input1.txt 
+--------------------------------------------------------
+Input File Name:                   input1.txt
+CPU Scheduling Alg:                FIFO
+CPU Utilization:                   85.744%
+Throughput:                        0.012 processes / ms
+Avg. Turnaround Time:              405.445ms
+Avg. Waiting time in Ready Queue:  82.807ms
+--------------------------------------------------------
+make: *** [run1] Error 1
+qsy775@fox05:~/courses/cs3733/assign5$ make run2
+Prog -alg SJF -input input1.txt 
+--------------------------------------------------------
+Input File Name:                   input1.txt
+CPU Scheduling Alg:                SJF
+CPU Utilization:                   85.712%
+Throughput:                        0.012 processes / ms
+Avg. Turnaround Time:              403.398ms
+Avg. Waiting time in Ready Queue:  82.398ms
+--------------------------------------------------------
+make: *** [run2] Error 1
+qsy775@fox05:~/courses/cs3733/assign5$ make run3
+Prog -alg PR -input input1.txt 
+--------------------------------------------------------
+Input File Name:                   input1.txt
+CPU Scheduling Alg:                PR
+CPU Utilization:                   84.021%
+Throughput:                        0.014 processes / ms
+Avg. Turnaround Time:              132.476ms
+Avg. Waiting time in Ready Queue:  27.870ms
+--------------------------------------------------------
+make: *** [run3] Error 1
+qsy775@fox05:~/courses/cs3733/assign5$ make run4
+Prog -alg RR -quantum 10 -input input1.txt
+--------------------------------------------------------
+Input File Name:                   input1.txt
+CPU Scheduling Alg:                RR quantum: 10
+CPU Utilization:                   109.288%
+Throughput:                        0.007 processes / ms
+Avg. Turnaround Time:              167.273ms
+Avg. Waiting time in Ready Queue:  35.173ms
+--------------------------------------------------------
+make: *** [run4] Error 1
+qsy775@fox05:~/courses/cs3733/assign5$ make run5
+Prog -alg RR -quantum 20 -input input1.txt 
+--------------------------------------------------------
+Input File Name:                   input1.txt
+CPU Scheduling Alg:                RR quantum: 20
+CPU Utilization:                   95.243%
+Throughput:                        0.014 processes / ms
+Avg. Turnaround Time:              426.714ms
+Avg. Waiting time in Ready Queue:  87.061ms
+--------------------------------------------------------
+make: *** [run5] Error 1
+qsy775@fox05:~/courses/cs3733/assign5$ make run6
+Prog -alg RR -quantum 30 -input input1.txt
+--------------------------------------------------------
+Input File Name:                   input1.txt
+CPU Scheduling Alg:                RR quantum: 30
+CPU Utilization:                   89.311%
+Throughput:                        0.016 processes / ms
+Avg. Turnaround Time:              102.673ms
+Avg. Waiting time in Ready Queue:  22.253ms
+--------------------------------------------------------
+make: *** [run6] Error 1
+qsy775@fox05:~/courses/cs3733/assign5$
